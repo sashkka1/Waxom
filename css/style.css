@@ -85,13 +85,12 @@ header
     border-radius: 5px;
     border: 0px;
     box-shadow: 0 3px rgb(138, 89, 16);
-}
+} 
 
 .white-line{
     height: 400px;
     width: 1175px;
     margin: 0px auto;
-
 }
 
 .white-line .p1{
@@ -135,4 +134,58 @@ header
     width: 260px;
     text-align: center;
     margin: 13px;
+}
+
+.three-page{
+    height: 700px;
+    text-align: center;
+    background-color:beige;
+    padding: 40px;
+    position: relative;
+    z-index: -2;
+}
+
+.three-page .p1{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color:rgb(48, 48, 48); 
+}
+.three-page .p2{
+    max-width: 700px;
+    padding-left: 550px;
+    color:rgb(84, 84, 84);
+}
+
+.three-page .img2{
+    position: absolute;
+    bottom: -15%;
+    left: 10%;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.three-page .img1{
+    position: absolute;
+    bottom: 0%;
+    left: 25%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.three-page .img3{
+    position: absolute;
+    bottom: -10%;
+    left: 43%;
+    z-index: -1;
+}
+
+
+
+
+
+
+.end{
+    height: 100px;
+    background-color: black;
 }
