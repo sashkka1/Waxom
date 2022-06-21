@@ -180,6 +180,60 @@ header
     z-index: -1;
 }
 
+.line-2{
+    height: 150px;
+    background-image: linear-gradient(-110deg, #341c01, #0f0801);
+    position: relative;
+}
+
+.line-2 i{
+    color: rgb(114, 87, 62);
+    font-style: normal;
+}
+
+.line-2 .p1{
+    padding-top: 40px;
+    margin-bottom: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: aliceblue;
+}
+
+.line-2 .p2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18;
+    color: rgb(69, 58, 47);
+}
+
+.line-2 button{
+    float: right;
+    position: absolute;
+    top: 35%;
+    left: 73.5%;
+    width: 140px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(120, 93, 54);
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0 3px rgb(81, 61, 34);
+}
+
+.line-2 .contener div{
+    display: block;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
