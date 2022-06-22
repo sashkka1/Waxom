@@ -274,43 +274,43 @@ header
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.more-blocks > div{
+.BIG-PAGE .more-blocks > div{
     /* border: 2px solid red; */
     height: 350px;
     width: 360px;
     background-color:#fbfaf8;
 }
-.more-blocks > div:hover{
+.BIG-PAGE .more-blocks > div:hover{
     /* border: 2px solid red; */
     height: 350px;
     width: 360px;
     background-color: #362f2d;
 }
-.more-blocks  img{
+.BIG-PAGE .more-blocks  img{
     width: 100%;
 }
-.more-blocks .p1{
+.BIG-PAGE .more-blocks .p1{
     margin-top:  20px;
     margin-left: 35px;
     font-size: 25px;
     color: #c7b299;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.more-blocks .p1:hover{
+.BIG-PAGE .more-blocks .p1:hover{
     margin-top:  20px;
     margin-left: 35px;
     font-size: 25px;
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.more-blocks .p2{
+.BIG-PAGE .more-blocks .p2{
     margin-top:  5px;
     margin-left: 35px;
     font-size: 18px;
     color: #d1d1d1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.more-blocks .p2:hover{
+.BIG-PAGE .more-blocks .p2:hover{
     margin-top:  5px;
     margin-left: 35px;
     font-size: 18px;
@@ -425,6 +425,124 @@ header
     font-size: 15px;
 }
 
+
+
+
+.BIG-PAGE-clone{
+    height: 1150px;
+}
+
+.BIG-PAGE-clone .text{
+    text-align: center;
+    height: 200px;
+    /* background-color: antiquewhite; */
+}
+
+.BIG-PAGE-clone .text .p1{
+    padding-top: 60px;
+    font-size: 35px;
+    color: #555555;
+}
+
+.BIG-PAGE-clone .text .p2{
+    position: absolute;
+    left: 36%;
+    font-size: 18px ;
+    padding-top: 14px;
+    max-width: 500px;
+    line-height: 25px;
+    color: #555555;
+}
+
+.BIG-PAGE-clone .more-blocks{
+    /* border: 2px solid red; */
+    height: 750px;
+    width: 1175px;
+    margin: 0px auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.more-blocks > div{
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 360px;
+    background-color:#fbfaf8;
+}
+.more-blocks  img{
+    width: 100%;
+}
+.more-blocks .p1{
+    margin-top:  20px;
+    margin-left: 35px;
+    font-size: 25px;
+    color: #777777;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.more-blocks .p2{
+    margin-top:  8px;
+    margin-left: 35px;
+    font-size: 14px;
+    color: #777777;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.more-blocks .p3{
+    margin-top:  20px;
+    margin-left: 35px;
+    font-size: 18px;
+    color: #c7b299;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.line-3 .main-block{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px;
+}
+.line-3 .main-block div{
+    width: 150px;
+}
+
+.pred-last{
+    height: 486px;
+    background-image: url(img/rocks_1.jpg);
+    text-align: center;
+}
+.pred-last .block{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding: 140px;
+}
+
+.pred-end{
+    background-color: #191919;
+    height: 600px;
+    text-align: center;
+}
+
+.pred-end .block{
+    width: 1175px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding: 100px;
+}
+.pred-end .block div{
+    border: 2px solid #ff4000 ;
+    height: 400px;
+    width: 260px;
+}
 
 
 
