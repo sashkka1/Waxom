@@ -429,7 +429,8 @@ header
 
 
 .BIG-PAGE-clone{
-    height: 1150px;
+    padding-top: 60px;
+    padding-bottom: 100px;
 }
 
 .BIG-PAGE-clone .text{
@@ -439,7 +440,7 @@ header
 }
 
 .BIG-PAGE-clone .text .p1{
-    padding-top: 60px;
+    /* padding-top: 60px; */
     font-size: 35px;
     color: #555555;
 }
@@ -456,7 +457,7 @@ header
 
 .BIG-PAGE-clone .more-blocks{
     /* border: 2px solid red; */
-    height: 750px;
+    height: 400px;
     width: 1175px;
     margin: 0px auto;
 
@@ -523,13 +524,13 @@ header
     padding: 140px;
 }
 
-.pred-end{
-    background-color: #191919;
-    height: 600px;
-    text-align: center;
-}
 
-.pred-end .block{
+.footer{
+    background-color: #191919;
+
+
+}
+.footer .contact-info{
     width: 1175px;
     display: flex;
     flex-direction: row;
@@ -538,16 +539,72 @@ header
     align-items: center;
     padding: 100px;
 }
-.pred-end .block div{
-    border: 2px solid #ff4000 ;
-    height: 400px;
+.footer .contact-info > div{
+    height: 300px;
     width: 260px;
 }
-
+.footer .contact-info .info hr{
+    margin: 10px;
+    border-color: #252525;
+}
+.footer .contact-info .info .text{
+    color: #555555;
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 20px;
+}
+.footer .contact-info .info .title{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.footer .contact-info .info .name-page{
+    color: #696969;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer .contact-info .info .date{
+    color: #3b3a3a;
+    font-size: 14px;
+}
+.footer .contact-info .info .information{
+    color: #575757;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 
 
 .end{
-    height: 100px;
-    background-color: black;
+    height: 80px;
+    background-color: #111111;
 }
+.end .privacy-policy{
+    padding-top: 25px;
+    float: left;
+    color: #555555;
+}
+.end ul{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.end li{
+    padding: 5px;
+    list-style-type: none;
+}
+.end img{
+    height: 30px;
+}
+.end .privacy-policy a{
+    text-decoration: none;
+    color: #3b3a3a ;
+}
+
+
+
+
+
