@@ -5,48 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="style.css"> 
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
     <header class="header">
         <div class="conteiner">
             <div class="header-body">
-                <div class="logo">
-                    <img src="img/logo-white.png">
+                <a href="#" class="header-logo">
+                    <img src="img/logo-white.png" alt="">
+                </a>
+                <div class="header-burger">
+                    <span>
+                    </span>
                 </div>
-                <div class="main-menu">
-                    <ul>
-                        <li><a href ="#home">Home</a></li>
-                        <li><a href ="#home">About us</a></li>
-                        <li><a href ="#home">Portfolio</a></li>
-                        <li><a href ="#home">Features</a></li>
-                        <li><a href ="#home">Blog</a></li>
-                        <li><a href ="#home">Pricing</a></li>
-                        <li><a href ="#home">Shortcodes</a></li>
-                        <li><a href ="#home">Contact</a></li>
-                        <li><a href ="#home"><img src="img/shopping-bag.png" class="shoping-bag"></a></li>
-                        <li><a href ="#home"><img src="img/search.png"></a></li>
-                        
-                    </ul>       
-                </div>
+                <nav class="header-menu">
+                    <ul class="header-list">
+                        <li><a href="#home" class="header-link">Home</a></li>
+                        <li><a href="#home" class="header-link">About us</a></li>
+                        <li><a href="#home" class="header-link">Portfolio</a></li>
+                        <li><a href="#home" class="header-link">Features</a></li>
+                        <li><a href="#home" class="header-link">Blog</a></li>
+                        <li><a href="#home" class="header-link">Pricing</a></li>
+                        <li><a href="#home" class="header-link">Shortcodes</a></li>
+                        <li><a href="#home" class="header-link">Contact</a></li>
+                        <li><a href="#home" class="header-link"><img src="img/shopping-bag.png" class="shoping-bag"></a></li>
+                        <li><a href="#home" class="header-link"><img src="img/search.png"></a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
     
-
     <div class="home-page" id="home">
         <div class="conteiner">
             <div class="home-page-text">
                 <p class="p1">Unique and Modern Design</p>
                 <p class="p2"><strong>Portfolio PSD Template</strong></p>
                 <p class="p3">Nan liber tempor cum soluda nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum</p>
-                <div class="home-page-button">
-                    <button>
-                        <strong>GET STARTED</strong>
-                    </button>
-                </div>
+                <button class="home-page-button">
+                    <strong>GET STARTED</strong>
+                </button>
             </div>
         </div>
     </div> 
@@ -89,7 +94,6 @@
             </div>
         </div>
     </div>
-
 
     <div class="three-page">
         <p class="p1">Waxom is Realization of your ideas</p>
@@ -267,14 +271,19 @@
 
     <div class="scroll-img">
         <div class="conteiner">
-            <div class="scroll-img-blocks">
-                <img src="img/logo-end-1.png">
-                <img src="img/logo-end-2.png">
-                <img src="img/logo-end-3.png">
-                <img src="img/logo-end-4.png">
+            <div class="owl-carousel scroll-img-scrol">
+                <div class="scroll-img-block"><img src="img/logo-end-1.png"></div>
+                <div class="scroll-img-block"><img src="img/logo-end-2.png"></div>
+                <div class="scroll-img-block"><img src="img/logo-end-3.png"></div>
+                <div class="scroll-img-block"><img src="img/logo-end-4.png"></div>
+                <div class="scroll-img-block"><img src="img/logo-end-1.png"></div>
+                <div class="scroll-img-block"><img src="img/logo-end-2.png"></div>
+                <div class="scroll-img-block"><img src="img/logo-end-3.png"></div>
+                <div class="scroll-img-block"><img src="img/logo-end-4.png"></div>
             </div>
         </div>
     </div>
+
 
     <div class="footer">
         <div class="footer-contact-block">
@@ -316,6 +325,7 @@
             </div>
         </div>
     </div>
+
 
     <div class="end-line">
         <div class="conteiner">
